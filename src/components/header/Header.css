@@ -1,0 +1,21 @@
+.header {
+    height: 5.5vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-left: 20px;
+    padding-right: 16px;
+}
+
+.model-name {
+    font-size: 1.3rem;
+    font-weight: 100;
+    font-family: 'Inter', sans-serif;
+    color: lightgray;
+}
+
+.lock-icon {
+    font-size: 25px;
+    font-weight: 100;
+    color: lightgray;
+}

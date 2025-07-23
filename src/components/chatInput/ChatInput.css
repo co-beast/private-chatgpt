@@ -1,9 +1,10 @@
 .container {
+    width: 65vw;
     display: flex;
-    gap: 20px;
+    gap: 10px;
     justify-content: space-between;
     background-color: #303030;
-    border-radius: 20px;
+    border-radius: 25px;
     padding: 20px;
 }
 
@@ -19,6 +20,11 @@
     font-family: 'Inter', sans-serif;
     font-size: 1rem;
     font-weight: 100;
+}
+
+.input::placeholder {
+  color: #999; /* Change to any color you want */
+  opacity: 1;   /* Optional: ensures the placeholder is fully opaque */
 }
 
 .send-button {
